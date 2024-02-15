@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Company</title>
+    <title>Circle</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <nav>
+    <!--Navigation Bar-->>
+    <nav class="nav-bar">
+        <a href="index.html"><img src="images/logos/circle.svg"></a>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Projects</a></li>
@@ -16,25 +19,129 @@
             <li><a href="">Contact Us</a></li>
         </ul>
     </nav>
+    <!--Header, hero-section -->
     <header>
-        <h1>Encabezado de la página</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="content-header">
+            <h1>Empower Your Bussiness With Stunning Design!</h1>
+            <P>Circle is a digital design and development studio. We design and develop astonishing websites and mobile
+                apps.</P>
+            <a href="">Get in Touch</a>
+            <a href="">See our work</a>
+        </div>
+        <div class="header.images">
+            <img class="bankcard" src="images/hero-section/card-1.png" alt="bankcard">
+            <img class="hero" src="images/hero-section/hero-image.png" alt="hero image">
+            <img class="emoji" src="images/hero-section/card-2.png" alt="emoji image">
+        </div>
     </header>
-
-    <main>
-        <h2>Contenido principal</h2>
-        <p>Este es el contenido principal de la página.</p>
-    </main>
-
+    <!--Logos bar Section-->
+    <section id="logo-bar">
+        <img src="images/logos/airbnb-logo.svg" alt="airbnb-logo">
+        <img src="images/logos/google-logo.svg" alt="google-logo">
+        <img src="images/logos/microsoft-logo.svg" alt="microsoft-logo">
+        <img src="images/logos/fedex-logo.svg" alt="fedex-logo">
+        <img src="images/logos/amazon-logo.svg" alt="amazon-logo">
+    </section>
+    <!--Recent Projects Section-->
+    <section id="recent-projects">
+        <h3>Recent Projects</h3>
+        <div class="projects">
+            <!--Article 1-->
+            <article class="project-article">
+                <img src="images/projects-section/1.jpg" alt="service abstract image">
+                <h4>Simplify</h4>
+                <p>UI Design & App Development</p>
+                <a href="">Learn More</a>
+            </article>
+            <!--Article 2-->
+            <article class="project-article">
+                <img src="images/projects-section/2.jpg" alt="service abstract image">
+                <h4>Dashcoin</h4>
+                <p>Web Development</p>
+                <a href="">Learn More</a>
+            </article>
+            <!--Article 3-->
+            <article class="project-article">
+                <img src="images/projects-section/3.jpg" alt="service abstract image">
+                <h4>Vectorify</h4>
+                <p>User Experience Design</p>
+                <a href="">Learn More</a>
+            </article>
+        </div>
+    </section>
+    <!--Client coments Section-->
+    <section id="clients-coments">
+        <img src="images/testimonial-section/memoji-1.png" alt="emoji-1">
+        <img src="images/testimonial-section/memoji-2.png" alt="emoji-2">
+        <img src="images/testimonial-section/memoji-3.png" alt="emoji-3">
+        <img src="images/testimonial-section/memoji-4.png" alt="emoji-4">
+        <img src="images/testimonial-section/orbit.png" alt="background">
+        <h3>Hear What Our Clients Have to Say</h3>
+        <p>“Circle helped us through every stage of our startup. We really enjoyed working with you.”</p>
+        <div class="client-info">
+            <img src="images/testimonial-section/profile.png" alt="profile">
+            <div>
+                <span class="name">Kristin Watson</span>
+                <span class="web">Booking.com</span>
+            </div>
+        </div>
+    </section>
+    <!--Our Services Section-->
+    <section id="our-services">
+        <h3>Our Services</h3>
+        <div class="services">
+            <!--Article 1-->
+            <article class="service-article">
+                <img src="images/services-section/icons/1.svg" alt="pen-img">
+                <h4>User Interface Design</h4>
+                <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                <a href="">Learn More</a>
+            </article>
+            <!--Article 2-->
+            <article class="service-article">
+                <img src="images/services-section/icons/2.svg" alt="arrow-img">
+                <h4>User Experience Design</h4>
+                <p>Circle always focuses on delivering the best user experience to your customers.</p>
+                <a href="">Learn More</a>
+            </article>
+            <!--Article 3-->
+            <article class="service-article">
+                <img src="images/services-section/icons/3.svg" alt="doc-img">
+                <h4>Application Development</h4>
+                <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+                <a href="">Learn More</a>
+            </article>
+        </div>
+    </section>
+    <!--Questions Section-->
+    <section id="questions">
+        <h3>Do you have any questions?</h3>
+        <p>Let us help you!</p>
+        <form>
+            
+            <input type="email" placeholder="Enter your email"><img src="images/newsletter/icon/mail.svg"alt="email-img"></input>
+            
+            <button type="button">Suscribe</button>
+        </form>
+    </section>
+    <!--Footer-->
     <footer>
-        <p>Pie de página - Derechos reservados © 2024</p>
+        <div class="img-direction">
+            <img src="images/logos/circle.svg" alt="circle-logo">
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+        </div>
+        <div class="page-links">
+            <ul>
+                <li><a href="">Team</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Privace Policy</a></li>
+            </ul>
+        </div>
     </footer>
 
 </body>
+
 </html>
