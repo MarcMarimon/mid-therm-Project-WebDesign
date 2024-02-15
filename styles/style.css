@@ -1,3 +1,70 @@
+/*Variables*/
 :root{
-    
+    --color-primary-default: #072AC8;
+    --color-accent: #43D2FF;
+    --color-primary-hover: #A2D6F9;
+    --color-primary-tapped: #D1EDFF;
+    --color-neutral-dark: #292E47;
+    --color-neutral-medium: #6B708D;
+    --color-neutral-light: #F2F4FC;
+    --color-neutral-light-blue: #ECF7FF;
+    --color-secondary-1: #FFC600;
 }
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Helvetica Neue", Helvetica;
+}
+  body {
+    background-color: var(--color-neutral-light);
+  }
+  /* Nav Bar*/
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-neutral-light);
+}
+
+.nav-bar img {
+    width: 200px;
+    height: 65px;
+    margin-left: 20px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: 1.8em;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.nav-bar li {
+    margin-left: 30px;
+}
+  /* Header */
+  header {
+    background-color: var(--color-neutral-light);
+    text-align: center;
+    padding: 20px 0;
+  }
+  header h1 {
+    color: var(--color-primary-default);
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  /* Recent projects */
+  .recent-projects {
+    padding: 40px 0;
+  }
+  
+  .recent-projects h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
