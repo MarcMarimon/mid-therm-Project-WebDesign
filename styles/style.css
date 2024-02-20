@@ -13,25 +13,60 @@
 
 /*Reset*/
 * {
-  margin: auto;
+  margin: 0;
   padding: 0;
   font-family: "Roboto", "Helvetica Neue", Helvetica;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 body {
   background-color: var(--color-neutral-light);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 170px;
+  box-sizing: border-box;
 }
 
 /* Nav Bar*/
 .nav-bar {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  max-width: 1440px;
   height: 70px;
-  display: flex;
-  justify-content: space-between;
   background: var(--color-neutral-light);
   font-size: 1.4em;
+  margin: 0 auto;
+  padding: 0 170px;
+  box-sizing: border-box;
+}
+
+.nav-bar>div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-button {
@@ -43,24 +78,23 @@ body {
   color: var(--color-neutral-light);
   text-decoration: none;
   margin-top: auto;
-  margin-right: 60px;
 }
-.logo-link{
+
+.logo-link {
   width: 75px;
   height: 65px;
-  margin-left: 60px;
 }
+
 .nav-bar img {
   width: 75px;
   height: 65px;
-  margin:auto;
+  margin: auto;
 }
 
 .nav-bar ul {
   list-style: none;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  margin-right: auto;
 }
 
 .nav-bar li {
@@ -73,7 +107,7 @@ body {
   color: var(--color-neutral-medium);
 }
 
-.nav-bar li a:hover {
+.nav-bar li>a:hover {
   color: var(--color-primary-default);
 }
 
@@ -81,7 +115,7 @@ body {
 header {
   background-color: var(--color-neutral-light);
   padding: 20px 0;
-  margin-top:40px;
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -89,10 +123,10 @@ header {
   max-width: 1440px;
   width: 100%;
   max-height: 650px;
-  margin: 0 auto;
+  margin-top: 150px;
 }
 
-header h1 {
+header>h1 {
   font-size: 60px;
   margin: 0 50px 70px 50px;
   padding-top: auto;
@@ -108,22 +142,29 @@ header h1 {
   max-width: 530px;
   max-height: 422px;
   text-align: left;
+  margin-right: 30px;
 }
-.content-header h1 {
+
+.content-header>h1 {
   margin: 60px auto;
   color: var(--color-primary-default);
   padding: 0;
 }
-.content-header p {
+
+.content-header>p {
   font-size: 20px;
   margin: 60px auto;
   padding: 0;
   color: var(--color-neutral-medium)
 }
+
 .button-container {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  width: 100%;
 }
+
 .content-header a {
   padding: 10px 20px;
   border: none;
@@ -131,11 +172,14 @@ header h1 {
   margin: 10px 0;
   font-weight: bold;
   padding: 17px 36px;
+
 }
-.content-header a:last-of-type{
+
+.content-header a:last-of-type {
   color: var(--color-neutral-medium);
 }
-.header-button{
+
+.header-button {
   background-color: var(--color-primary-default);
   color: var(--color-neutral-light);
 }
@@ -152,7 +196,7 @@ header h1 {
   background-size: contain;
 }
 
-.header-images div {
+.header-images>div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -160,12 +204,12 @@ header h1 {
   margin-left: 0;
 }
 
-.header-images div:last-of-type {
+.header-images>div:last-of-type {
   justify-content: flex-end;
   margin-right: 0;
 }
 
-.header-images img {
+.header-images>img {
   width: 100%;
   max-width: 190px;
   height: auto;
@@ -173,13 +217,163 @@ header h1 {
   margin: 0;
 }
 
+/*Logo bars*/
 
-/* Recent projects */
-.recent-projects {
-  padding: 40px 0;
+#logo-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  height: 150px;
+  box-sizing: border-box;
+  border-top: 60px;
+  align-items: center;
 }
 
-.recent-projects h2 {
-  font-size: 20px;
+#logo-bar>img {
+  max-width: 96px;
+  max-height: 32px;
+  opacity: .6;
+  filter: grayscale(100%);
+
+
+}
+
+/* Recent projects */
+#recent-projects {
+  width: 100%;
+}
+
+#recent-projects>h3 {
   margin-bottom: 20px;
+}
+
+.projects {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.project-article {
+  max-width: 340px;
+  width: 100%;
+  height: 444px;
+  background-color: white;
+}
+
+.project-article>img {
+  width: 100%;
+  max-width: 340px;
+  height: 240px;
+  margin-bottom: 15px;
+}
+
+.project-test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-test h4 {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.project-test p {
+  margin-left: 20px;
+  color: var(--color-neutral-medium);
+}
+
+.project-test a {
+  margin-left: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: var(--color-primary-default);
+  bottom: 20px;
+}
+
+.project-test a:hover {
+  color: var(--color-primary-hover);
+}
+
+.text-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/*Clients Coments*/
+#clients-coments {
+  background-color: var(--color-neutral-dark);
+  background-image: url("images/testimonial-section/orbit.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  height: 622px;
+  margin-top: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  text-align: center;
+}
+
+.info>h3 {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  color: var(--color-neutral-light);
+}
+
+.info>p {
+  color: var(--color-secondary-1);
+  font-size: 24px;
+
+}
+
+.client-info {
+  display: flex;
+  justify-content: center;
+}
+
+.client-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.client-info div {
+  display: flex;
+  flex-direction: column;
+  max-width: 111px;
+  height: 37px;
+  color: var(--color-neutral-light);
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.web {
+  font-size: 15px;
+  text-align: left;
+}
+
+.emojis {
+  position: absolute;
+  display: flex;
+}
+
+.emojis img {
+  max-width: 150px;
+  max-height: 150px;
 }
