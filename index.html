@@ -11,7 +11,7 @@
 
 <body>
     <!--Navigation Bar-->>
-    <nav class="nav-bar">
+    <nav class="nav-bar padded-element">
         <div>
             <a href="index.html" class="logo-link"><img src="images/logos/circle.svg"></a>
             <ul>
@@ -23,7 +23,7 @@
         </div>
     </nav>
     <!--Header, hero-section -->
-    <header>
+    <section id="header" class="padded-element">
         <div class="content-header">
             <h1>Empower Your Bussiness With Stunning Design!</h1>
             <P>Circle is a digital design and development studio. We design and develop astonishing websites and mobile
@@ -41,9 +41,9 @@
                 <img class="emoji" src="images/hero-section/card-2.png" alt="emoji image">
             </div>
         </div>
-    </header>
+    </section>
     <!--Logos bar Section-->
-    <section id="logo-bar">
+    <section id="logo-bar" class="padded-element">
         <img src="images/logos/airbnb-logo.svg" alt="airbnb-logo">
         <img src="images/logos/google-logo.svg" alt="google-logo">
         <img src="images/logos/microsoft-logo.svg" alt="microsoft-logo">
@@ -51,7 +51,7 @@
         <img src="images/logos/amazon-logo.svg" alt="amazon-logo">
     </section>
     <!--Recent Projects Section-->
-    <section id="recent-projects">
+    <section id="recent-projects" class="padded-element">
         <h3>Recent Projects</h3>
         <div class="projects">
             <!--Article 1-->
@@ -111,7 +111,7 @@
         </div>
     </section>
     <!--Our Services Section-->
-    <section id="our-services">
+    <section id="our-services" class="padded-element">
         <h3>Our Services</h3>
         <div class="projects">
             <!--Article 1-->
@@ -148,15 +148,16 @@
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
         <form>
-
-            <input type="email" placeholder="Enter your email"><img src="images/newsletter/icon/mail.svg"
-                alt="email-img"></input>
-
+            <div class="input-wrapper">
+            <img src="images/newsletter/icon/mail.svg"
+                alt="email-img">
+            <input type="email" placeholder="Enter your email"></input>
+        </div>
             <button type="button">Suscribe</button>
         </form>
     </section>
     <!--Footer-->
-    <footer>
+    <footer class="padded-element">
         <div class="img-direction">
             <img src="images/logos/circle.svg" alt="circle-logo">
             <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
