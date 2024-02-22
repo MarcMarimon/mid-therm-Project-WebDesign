@@ -11,27 +11,31 @@
 
 <body>
     <!--Navigation Bar-->>
-    <nav class="nav-bar">
-        <a href="index.html"><img src="images/logos/circle.svg"></a>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Services</a></li>  
-        </ul>
-        <a class="contact-button"href="">Contact Us</a>
+    <nav class="nav-bar padded-element">
+        <div>
+            <a href="index.html" class="logo-link"><img src="images/logos/circle.svg"></a>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/project.html">Projects</a></li>
+                <li><a href="#our-services">Services</a></li>
+            </ul>
+            <a class="contact-button" href="contactUs.html">Contact Us</a>
+        </div>
     </nav>
     <section id="contact">
-        <h1>Contact Us</h1>
-        <form class="contact-form">
-            <label for="name">Full Name<br>
+        <h1 class="padded-element">Contact Us</h1>
+        <form class="contact-form padded-element">
+            <label for="name">Full Name*<br>
                 <input type="text" name="name" id="name" placeholder="Enter your full name"><br>
             </label>
-            <label for="email">Email<br>
-                <input type="text" name="email" id="email" placeholder="Enter your email address"><br>
-            </label>
-            <label for="phone">Phone<br>
-                <input type="text" name="phone" id="phone" placeholder="Enter your phone number"><br>
-            </label>
+            <div class="email-phone">
+                <label for="email">Email<br>
+                    <input type="text" name="email" id="email" placeholder="Enter your email address"><br>
+                </label>
+                <label for="phone">Phone<br>
+                    <input type="text" name="phone" id="phone" placeholder="Enter your phone number"><br>
+                </label>
+            </div>
             <label for="message">Message<br>
                 <textarea name="message" id="message" rows="5" cols="20"
                     placeholder="Write your message here ...."></textarea>
@@ -40,7 +44,7 @@
         </form>
     </section>
     <!--Footer-->
-    <footer>
+    <footer class="padded-element">
         <div class="img-direction">
             <img src="images/logos/circle.svg" alt="circle-logo">
             <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
@@ -48,10 +52,10 @@
         <div class="page-links">
             <ul>
                 <li><a href="">Team</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="#our-services">Services</a></li>
+                <li><a href="#header">About Us</a></li>
                 <li><a href="">Press</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="#recent-projects">Projects</a></li>
                 <li><a href="">Privace Policy</a></li>
             </ul>
         </div>

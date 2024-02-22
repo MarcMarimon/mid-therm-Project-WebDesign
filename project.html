@@ -11,58 +11,91 @@
 
 <body>
     <!--Navigation Bar-->>
-    <nav class="nav-bar">
-        <a href="index.html"><img src="images/logos/circle.svg"></a>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Services</a></li>  
-        </ul>
-        <a class="contact-button"href="">Contact Us</a>
+    <nav class="nav-bar padded-element">
+        <div>
+            <a href="index.html" class="logo-link"><img src="images/logos/circle.svg"></a>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/project.html">Projects</a></li>
+                <li><a href="#our-services">Services</a></li>
+            </ul>
+            <a class="contact-button" href="contactUs.html">Contact Us</a>
+        </div>
     </nav>
     <section id="actual-project">
+        <div class="projecct-container padded-element">
+            <h1 class="project-name">Actual Project</h1>
+            <div class="subtitle">
+                <p class="project-description">UI Dissing & Dev</p>
+                <p class="project-completed-on">Completed on <date>June 22, 2021</date>
+                </p>
+            </div>
+            <img class="project-img" src="/images/projects-section/1.jpg" alt="project-image" />
+            <p class="project-content">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et! Sunt qui esse
+                pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat
+                incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea
+                quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit
+                aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat
+                nostrud irure ex duis ea quis id quis ad et. Sunt quix duis ea quis id quis ad et. Sunt qui esse
+                pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat
+                incididunt sint deserunt ut voluptate aute id deserunt nisi.<br><br>Aliqua id fugiat nostrud irure ex
+                duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.
+                Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id
+                fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure
+                tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor
+                cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex
+                duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt
+                sint deserunt ut voluptate aute id deserunt nis cillum minim tempor enim.</p>
 
+        </div>
     </section>
     <section id="other-projects">
-        <h3>Other Projects</h3>
-        <div class="projects">
+        <h3 class="padded-element">Other Projects</h3>
+        <div class="projects padded-element">
             <!--Article 1-->
             <article class="project-article">
                 <img src="images/projects-section/1.jpg" alt="service abstract image">
-                <h4>Simplify</h4>
-                <p>UI Design & App Development</p>
-                <a href="">Learn More</a>
+                <div class=" project-test">
+                    <h4>Simplify</h4>
+                    <p>UI Design & App Development</p>
+                    <a href="">Learn More</a>
+                </div>
             </article>
             <!--Article 2-->
             <article class="project-article">
                 <img src="images/projects-section/2.jpg" alt="service abstract image">
-                <h4>Dashcoin</h4>
-                <p>Web Development</p>
-                <a href="">Learn More</a>
+                <div class=" project-test">
+                    <h4>Dashcoin</h4>
+                    <p>Web Development</p>
+                    <a href="">Learn More</a>
+                </div>
             </article>
             <!--Article 3-->
             <article class="project-article">
                 <img src="images/projects-section/3.jpg" alt="service abstract image">
-                <h4>Vectorify</h4>
-                <p>User Experience Design</p>
-                <a href="">Learn More</a>
+                <div class=" project-test">
+                    <h4>Vectorify</h4>
+                    <p>User Experience Design</p>
+                    <a href="">Learn More</a>
+                </div>
             </article>
         </div>
     </section>
-    <!--Questions section-->
+    <!--Questions Section-->
     <section id="questions">
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
         <form>
-
-            <input type="email" placeholder="Enter your email"><img src="images/newsletter/icon/mail.svg"
-                alt="email-img"></input>
-
+            <div class="input-wrapper">
+                <img src="images/newsletter/icon/mail.svg" alt="email-img">
+                <input type="email" placeholder="Enter your email"></input>
+            </div>
             <button type="button">Suscribe</button>
         </form>
     </section>
     <!--Footer-->
-    <footer>
+    <footer class="padded-element">
         <div class="img-direction">
             <img src="images/logos/circle.svg" alt="circle-logo">
             <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
@@ -70,10 +103,10 @@
         <div class="page-links">
             <ul>
                 <li><a href="">Team</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="#our-services">Services</a></li>
+                <li><a href="#header">About Us</a></li>
                 <li><a href="">Press</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="#recent-projects">Projects</a></li>
                 <li><a href="">Privace Policy</a></li>
             </ul>
         </div>
