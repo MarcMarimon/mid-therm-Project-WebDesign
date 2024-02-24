@@ -129,7 +129,6 @@ body {
 }
 
 .content-header h1 {
-  font-size: 60px;
   margin: 60px auto;
   color: var(--color-primary-default);
   padding: 0;
@@ -307,6 +306,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 622px;
+  margin: 0 100px;
   margin-top: 40px;
   position: relative;
 }
@@ -453,6 +453,7 @@ body {
 /*Question Section*/
 
 #questions {
+  margin:0 100px;
   margin-top: 100px;
   background-color: var(--color-secondary-1);
   display: flex;
@@ -594,14 +595,22 @@ footer {
   width: 1100px;
   height: 444px;
   margin-top: 50px;
-  box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.20);
+}
+.img-div{
+  height: 444px ;
+}
+#actual-project img:first-of-type{
+  filter:blur(15px);
+}
+#actual-project img:last-of-type{
+  position: relative;
+  top: -494px;
 }
 
 .project-content {
   color: var(--color-neutral-medium);
-  margin-top: 50px;
+  margin-top: 100px;
   line-height: 1.7;
-
 }
 
 /*Other projects*/
