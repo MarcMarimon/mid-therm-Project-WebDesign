@@ -1,0 +1,322 @@
+@media screen and (max-width:1023px) {
+
+    .padded-element {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    /*Responsive nav*/
+    .contact-button {
+        display: none;
+    }
+
+    .nav-bar ul {
+        align-items: center;
+    }
+
+    /*Responsive Header*/
+    .content-header {
+        max-width: 1000px;
+    }
+
+    .content-header h1 {
+        margin: 10px 0;
+    }
+
+    .content-header p {
+        margin: 20px 0;
+    }
+
+    .header-images {
+        display: none;
+    }
+
+    /*Responsive Logo bar*/
+    #logo-bar {
+        margin: 10px;
+    }
+
+    #logo-bar>img {
+        width: 70px;
+    }
+
+    /*Responsive Recent Projects*/
+    .project-article:last-child {
+        display: none;
+    }
+
+    .projects {
+        justify-content: center;
+    }
+
+    /*Responsive Client Coments Section*/
+    #clients-coments {
+        width: 800px;
+        margin: 80px auto;
+    }
+
+    .info>h3 {
+        font-size: 30px;
+        margin-top: 150px;
+        margin-bottom: 10px;
+    }
+
+    .info>p {
+        font-size: 20px;
+    }
+
+    .service-article:last-child {
+        display: none;
+    }
+
+    .projects {
+        justify-content: center;
+    }
+
+    /*Responsive Our Service Section*/
+    #our-services {
+        margin-top: 50px;
+    }
+
+    #our-services>h3 {
+        font-size: 20px;
+    }
+
+    .service-article:last-child {
+        display: none;
+    }
+
+    .service-article {
+        height: 270px;
+        width: 200px;
+    }
+
+    .service-img {
+        display: none;
+    }
+
+    .service-article h4 {
+        margin-top: -10px;
+    }
+
+    .service-article p {
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    /*Responsive Questions Section*/
+    #questions {
+        width: 800px;
+        margin: 80px auto;
+    }
+
+    /*Responsive Actual Project*/
+    #actual-project {
+        width: 800px;
+        margin: 80px auto;
+    }
+
+    .project-name {
+        font-size: 30px;
+    }
+
+    .project-description {
+        font-size: 20px;
+    }
+
+    .project-completed-on {
+        font-size: 15px;
+    }
+
+    #actual-project img {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+/*Responsive Styles for Phone Screen*/
+@media screen and (max-width:480px) {
+    .padded-element {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*Responsive nav*/
+    .logo-link img {
+        width: 55px;
+        height: 45px;
+    }
+
+    .nav-bar ul {
+        font-size: 15px;
+        align-items: center;
+    }
+
+    /*Responsive Header*/
+    #header {
+        margin-top: 40px;
+    }
+
+    .content-header {
+        width: 400px;
+    }
+
+    .content-header h1 {
+        font-size: 20px;
+    }
+
+    .content-header p {
+        font-size: 15px;
+    }
+
+    .button-container {
+        justify-content: center;
+    }
+
+    .content-header a {
+        padding: 7px 16px;
+    }
+
+    /*Responsive Logo bar*/
+    #logo-bar {
+        margin: 10px;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    #logo-bar>img {
+        width: 80px;
+        margin: 15px;
+    }
+
+    /*Responsive Recent Projects*/
+    #recent-projects h3,
+    h4 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .project-article {
+        height: 170px;
+        width: 200px;
+        display: flex;
+    }
+
+    .project-article img {
+        display: none;
+    }
+
+    .project-test a {
+        margin-bottom: 15px;
+    }
+
+    /*Responsive Client Coments Section*/
+    #clients-coments {
+        width: 400px;
+        height: 300px;
+        margin: 40px auto;
+        justify-content: center;
+    }
+
+    .emojis {
+        display: none;
+    }
+
+    .info {
+        gap: 45px;
+    }
+
+    .info>h3 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .info>p {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    /*Responsive Questions Section*/
+    #questions {
+        width: 400px;
+        height: 300px;
+        margin: 40px auto;
+        justify-content: center;
+    }
+
+    #questions h3 {
+        font-size: 20px;
+    }
+
+    #questions p {
+        font-size: 15px;
+    }
+
+    #questions form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #questions form input {
+        width: 200px;
+        height: 50px;
+    }
+
+    #questions form button {
+        width: 100px;
+        height: 50px;
+    }
+
+    /*Responsive Footer*/
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-links {
+        margin: 0 auto;
+    }
+
+    /*Responsive actual project*/
+    #actual-project {
+        width: 400px;
+        margin: 40px auto;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    #actual-project img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .project-content {
+        line-height: normal;
+    }
+
+    /*Responsive Form*/
+    #contact>h1 {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    .contact-form {
+        width: 380px;
+        margin: 40px auto;
+        justify-content: center;
+    }
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+        font-size: 12px;
+    }
+
+    .contact-form textarea {
+        height: 100px;
+    }
+
+    .contact-form button {
+        height: 50px;
+    }
+}
