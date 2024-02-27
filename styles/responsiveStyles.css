@@ -1,5 +1,35 @@
-@media screen and (max-width:1023px) {
+@media  screen and (max-width:1300px){
+#actual-project img {
+    width: 850px;
+}
+   
+}
+@media  screen and (max-width:1170px){
+    .contact-button {
+        padding:18px 5px;
+    }
+    .content-header h1 {
+        margin: 80px 0;
+        font-size: 50px;
+    }
+    .service-article p{
+        font-size: 15px;
+        line-height: normal;
+    }
+    /*Responsive Actual Project*/
 
+    #actual-project img {
+        width: 600px;
+        height: 300px;
+    }
+    .img-div{
+        width: 610px;
+        height: 310px;
+    }
+
+}
+@media screen and (max-width:1023px) {
+    
     .padded-element {
         padding-left: 80px;
         padding-right: 80px;
@@ -9,7 +39,9 @@
     .contact-button {
         display: none;
     }
-
+    .nav-bar{
+        width: 800px;
+    }
     .nav-bar ul {
         align-items: center;
     }
@@ -32,9 +64,7 @@
     }
 
     /*Responsive Logo bar*/
-    #logo-bar {
-        margin: 10px;
-    }
+    
 
     #logo-bar>img {
         width: 70px;
@@ -127,19 +157,129 @@
     .project-completed-on {
         font-size: 15px;
     }
-
-    #actual-project img {
-        width: 600px;
-        height: 300px;
-    }
 }
-
-/*Responsive Styles for Phone Screen*/
-@media screen and (max-width:480px) {
+@media screen and (max-width: 840px) {
     .padded-element {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .nav-bar>div{
+        justify-content: left;
+    }
+       /*Responsive Client Coments Section*/
+       #clients-coments {
+        width: 100%;
+        height: 300px;
+        margin: 40px auto;
+        justify-content: center;
+    }
+
+    .emojis {
+        display: none;
+    }
+
+    .info {
+        gap: 45px;
+    }
+
+    .info>h3 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .info>p {
+        font-size: 15px;
+        margin: 10px;
+    }
+     /*Responsive Logo bar*/
+     #logo-bar {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    #logo-bar>img {
+        width: 80px;
+        margin: 15px;
+    }
+      /*Responsive Questions Section*/
+      #questions {
+        width: 100%;
+        height: 300px;
+        margin: 40px auto;
+        justify-content: center;
+    }
+
+    #questions h3 {
+        font-size: 20px;
+    }
+
+    #questions p {
+        font-size: 15px;
+    }
+
+    #questions form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #questions form input {
+        width: 200px;
+        height: 50px;
+    }
+
+    #questions form button {
+        width: 100px;
+        height: 50px;
+    }
+
+    #recent-projects h3,
+    h4 {
+        font-size: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-links {
+        margin: 0 auto;
+    }
+     /*Responsive actual project*/
+     #actual-project {
+        width: 400px;
+        margin: 40px auto;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    .img-div{
+        width: 310px;
+        height: 210px;
+    }
+    #actual-project img {
+        width: 300px;
+        height: 200px;
+        }
+    .project-content {
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .nav-bar ul{
+        display: none;
+    }
+    .page-links{
+        width: 300px;
+    }
+    .page-links ul{
+       display: block;
+       text-align: center;
+    }
+}
+/*Responsive Styles for Phone Screen*/
+@media screen and (max-width:480px) {
+    
 
     /*Responsive nav*/
     .logo-link img {
@@ -177,25 +317,10 @@
         padding: 7px 16px;
     }
 
-    /*Responsive Logo bar*/
-    #logo-bar {
-        margin: 10px;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
-
-    #logo-bar>img {
-        width: 80px;
-        margin: 15px;
-    }
+   
 
     /*Responsive Recent Projects*/
-    #recent-projects h3,
-    h4 {
-        font-size: 20px;
-        margin-top: 25px;
-    }
+   
 
     .project-article {
         height: 170px;
@@ -210,90 +335,8 @@
     .project-test a {
         margin-bottom: 15px;
     }
-
-    /*Responsive Client Coments Section*/
-    #clients-coments {
-        width: 400px;
-        height: 300px;
-        margin: 40px auto;
-        justify-content: center;
-    }
-
-    .emojis {
-        display: none;
-    }
-
-    .info {
-        gap: 45px;
-    }
-
-    .info>h3 {
-        font-size: 20px;
-        margin: 20px;
-    }
-
-    .info>p {
-        font-size: 15px;
-        margin: 10px;
-    }
-
-    /*Responsive Questions Section*/
-    #questions {
-        width: 100%;
-        height: 300px;
-        margin: 40px auto;
-        justify-content: center;
-    }
-
-    #questions h3 {
-        font-size: 20px;
-    }
-
-    #questions p {
-        font-size: 15px;
-    }
-
-    #questions form {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #questions form input {
-        width: 200px;
-        height: 50px;
-    }
-
-    #questions form button {
-        width: 100px;
-        height: 50px;
-    }
-
-    /*Responsive Footer*/
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .page-links {
-        margin: 0 auto;
-    }
-
-    /*Responsive actual project*/
-    #actual-project {
-        width: 400px;
-        margin: 40px auto;
-        justify-content: center;
-        margin-top: 80px;
-    }
-
-    #actual-project img {
-        width: 300px;
-        height: 200px;
-    }
-
-    .project-content {
-        line-height: normal;
-    }
+   
+   
     /*Responsive Other Projects*/
     #other-projects h3{
         font-size: 20px;
@@ -321,5 +364,14 @@
 
     .contact-form button {
         height: 50px;
+    }
+ 
+}
+@media screen and (max-width: 420px) {
+    .service-article p{
+        font-size: 12px;;
+    }
+    .contact-form{
+        width: 300px;
     }
 }

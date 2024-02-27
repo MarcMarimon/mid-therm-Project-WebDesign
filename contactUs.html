@@ -17,8 +17,8 @@
             <a href="index.html" class="logo-link"><img src="images/logos/circle.svg"></a>
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="/project.html">Projects</a></li>
-                <li><a href="#our-services">Services</a></li>
+                <li><a href="/index.html#recent-projects">Projects</a></li>
+                <li><a href="/index.html#our-services">Services</a></li>
             </ul>
             <a class="contact-button" href="contactUs.html">Contact Us</a>
         </div>
@@ -41,8 +41,14 @@
                 <textarea name="message" id="message" rows="5" cols="20"
                     placeholder="Write your message here ...."></textarea>
             </label>
-            <button type="button">Submit</button>
+            <button type="button" id="submit">Submit</button>
         </form>
+    </section>
+    <section id="form-message" class="padded-element hidden">
+        <div class="message-container">
+            <h3>Thank you for your message!</h3>
+            <p>We will get back to you shortly!</p>
+        </div>
     </section>
     <!--Footer-->
     <footer class="padded-element">
@@ -61,7 +67,7 @@
             </ul>
         </div>
     </footer>
-
+    <script src="javascript/contactForm.js"></script>
 </body>
 
 </html>

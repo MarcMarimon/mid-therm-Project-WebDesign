@@ -52,6 +52,9 @@ body {
   padding-right: 170px;
 
 }
+.hidden{
+  display: none;
+}
 
 /* Nav Bar*/
 .nav-bar {
@@ -218,9 +221,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 150px;
+  height: 80px;
   box-sizing: border-box;
-  border-top: 60px;
   align-items: center;
 }
 
@@ -233,14 +235,13 @@ body {
 
 /* Recent projects */
 
-#recent-projects>h3 {
-  margin-bottom: 20px;
+#recent-projects {
+  padding-top:70px;
 }
-
 .projects {
   display: flex;
   gap: 40px;
-  margin-top: 50px;
+  padding-top: 50px;
 
 }
 
@@ -400,7 +401,7 @@ body {
 /*Our services Section*/
 
 #our-services {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 /*Services Div Inherit from Projects Div*/
@@ -598,18 +599,20 @@ footer {
 }
 .img-div{
   height: 444px ;
+  position: relative;
 }
 #actual-project img:first-of-type{
   filter:blur(15px);
 }
 #actual-project img:last-of-type{
-  position: relative;
-  top: -494px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .project-content {
   color: var(--color-neutral-medium);
-  margin-top: 100px;
+  padding-top: 100px;
   line-height: 1.7;
 }
 
@@ -621,7 +624,7 @@ footer {
 /*ContactUs HTML*/
 
 #contact {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .contact-form {
@@ -640,7 +643,7 @@ footer {
   justify-content: center;
   border: none;
   background-color: var(--color-neutral-medium-opacity);
-  padding-left: 10px;
+  padding-left: auto;
 }
 
 .contact-form input::placeholder,
@@ -655,7 +658,7 @@ footer {
   margin-top: 15px;
   border: none;
   background-color: var(--color-neutral-medium-opacity);
-  padding: 20px 10px;
+  padding: 20px auto;
 }
 
 .email-phone {
@@ -681,4 +684,20 @@ footer {
   color: var(--color-neutral-light);
   font-size: 17px;
   border: none;
+}
+#form-message {
+  margin-top: 150px;
+ 
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-primary-default);
+  background-color: var(--color-secondary-1);
+  padding: 20px 10px;
+}
+.message-container p{
+  margin-top: 50px;
+  font-size: 24px;
 }
