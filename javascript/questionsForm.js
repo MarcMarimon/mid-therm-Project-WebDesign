@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const questionsSection = document.getElementById('questions');
         const questionsSubmitted = document.getElementById('questions-submitted');
         const email = emailInput.value.trim();
-
+        if (!validEmail(email)) {
+            alert("Please enter a valid email");
+        }
         if (validEmail(email)) {
             const emailData = {
                 email: email
