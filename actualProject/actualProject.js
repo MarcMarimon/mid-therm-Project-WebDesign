@@ -25,13 +25,6 @@ function loadActualProject(projectId) {
         .catch(error => console.error('Error charging projects by ID: ', error));
 
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const projectId = urlParams.get('id');
-    loadActualProject(projectId);
-});
-
 function loadOtherProjects() {
     fetch('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects')
         .then(response => response.json())
@@ -59,5 +52,12 @@ function loadOtherProjects() {
         })
         .catch(error => console.error('Error charging other projects: ', error));
 }
+document.addEventListener('DOMContentLoaded', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectId = urlParams.get('id');
+    loadActualProject(projectId);
+    loadOtherProjects();
+});
 
-document.addEventListener("DOMContentLoaded", loadOtherProjects);
+
+
