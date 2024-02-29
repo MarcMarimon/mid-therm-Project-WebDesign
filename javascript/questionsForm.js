@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         const questionsSection = document.getElementById('questions');
         const questionsSubmitted = document.getElementById('questions-submitted');
-        const emailInput = document.getElementById('email');
         const email = emailInput.value.trim();
 
         if (validEmail(email)) {
@@ -39,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const subscribeButton = document.getElementById("subscribe-button");
     subscribeButton.addEventListener("click", submitSubscription);
+    const emailInput = document.getElementById('email');
     emailInput.addEventListener("keypress", function (event) {
         if (event.key === "Enter") {
             submitSubscription(event);
