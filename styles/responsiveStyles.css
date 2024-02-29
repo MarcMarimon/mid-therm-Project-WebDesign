@@ -408,15 +408,12 @@
 }
 
 @media screen and (max-width: 420px) {
-    
     .service-article p {
         font-size: 12px;
     }
-
     .contact-form {
         width: 300px;
     }
-
     #logo-bar img:last-of-type {
         display: none;
     }
