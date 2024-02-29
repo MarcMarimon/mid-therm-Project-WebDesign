@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsiveStyles.css">
+</head>
+
+<body>
+    <!--Navigation Bar-->>
+    <nav class="nav-bar padded-element">
+        <div>
+            <a href="index.html" class="logo-link"><img src="images/logos/circle.svg"></a>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#recent-projects">Projects</a></li>
+                <li><a href="/index.html#our-services">Services</a></li>
+            </ul>
+            <a class="contact-button" href="/contatcUs/contactUs.html">Contact Us</a>
+        </div>
+    </nav>
+    <section id="actual-project">
+        <div class="projecct-container padded-element">
+            <h1 class="project-name"></h1>
+            <div class="subtitle">
+                <p class="project-description"></p>
+                <p class="project-completed-on">
+                    Completed on <date></date>
+                </p>
+            </div>
+            <div class="img-div">
+            <img class="project-img" src="" alt="project-image" />
+            <img class="project-img" src="" alt="project-image" />
+            </div>
+            <p class="project-content"></p>
+        </div>
+    </section>
+    <section id="other-projects">
+        <h3 class="padded-element">Other Projects</h3>
+        <div class="projects padded-element">
+            <!--Article 1-->
+            <article class="project-article">
+                <img src="" alt="service abstract image">
+                <div class=" project-test">
+                    <h4></h4>
+                    <p></p>
+                    <a href="">Learn More</a>
+                </div>
+            </article>
+            <!--Article 2-->
+            <article class="project-article">
+                <img src="" alt="service abstract image">
+                <div class=" project-test">
+                    <h4></h4>
+                    <p></p>
+                    <a href="">Learn More</a>
+                </div>
+            </article>
+            <!--Article 3-->
+            <article class="project-article">
+                <img src="" alt="service abstract image">
+                <div class=" project-test">
+                    <h4></h4>
+                    <p></p>
+                    <a href="">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!--Questions Section-->
+    <section id="questions">
+        <h3>Do you have any questions?</h3>
+        <p>Let us help you!</p>
+        <form id="subscription">
+            <div class="input-wrapper">
+                <img src="images/newsletter/icon/mail.svg" alt="email-img">
+                <input type="email" id= "email" placeholder="Enter your email"></input>
+            </div>
+            <button type="button" id= "subscribe-button">Suscribe</button>
+        </form>
+    </section>
+    <section id="questions-submitted" class="padded-element hidden">
+        <div class="message-container">
+            <h3>Thank you for subscribing!</h3>
+            <p>We will get back to you shortly!</p>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="padded-element">
+        <div class="img-direction">
+            <img src="images/logos/circle.svg" alt="circle-logo">
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+        </div>
+        <div class="page-links">
+            <ul>
+                <li><a href="">Team</a></li>
+                <li><a href="/index.html#our-services">Services</a></li>
+                <li><a href="/index.html#header">About Us</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="/index.html#recent-projects">Projects</a></li>
+                <li><a href="">Privace Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/actualProject/actualProject.js"></script>
+    <script src="/javascript/questionsForm.js"></script>
+</body>
+
+</html>

@@ -1,40 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Company</title>
+    <title>Circle</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsiveStyles.css">
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact Us</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>Encabezado de la página</h1>
-        <nav>
+    <!--Navigation Bar-->>
+    <nav class="nav-bar padded-element">
+        <div>
+            <a href="index.html" class="logo-link"><img src="images/logos/circle.svg"></a>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#recent-projects">Projects</a></li>
+                <li><a href="/index.html#our-services">Services</a></li>
             </ul>
-        </nav>
-    </header>
+            <a class="contact-button" href="contactUs.html">Contact Us</a>
+        </div>
+    </nav>
+    <!--Header, hero-section -->
+    <section id="header" class="padded-element">
+        <div class="content-header">
+            <h1>Empower Your Bussiness With Stunning Design!</h1>
+            <P>Circle is a digital design and development studio. We design and develop astonishing websites and mobile
+                apps.</P>
+            <div class="button-container">
+                <a href="/contactUs.html" class="header-button">Get in Touch</a>
+                <a href="/index.html#recent-projects" class="header-no-button">See our work</a>
+            </div>
+        </div>
+        <div class="header-images">
+            <div>
+                <img class="bankcard" src="images/hero-section/card-1.png" alt="bankcard">
+            </div>
+            <div>
+                <img class="emoji" src="images/hero-section/card-2.png" alt="emoji image">
+            </div>
+        </div>
+    </section>
+    <!--Logos bar Section-->
+    <section id="logo-bar" class="padded-element">
+        <img src="images/logos/airbnb-logo.svg" alt="airbnb-logo">
+        <img src="images/logos/google-logo.svg" alt="google-logo">
+        <img src="images/logos/microsoft-logo.svg" alt="microsoft-logo">
+        <img src="images/logos/fedex-logo.svg" alt="fedex-logo">
+        <img src="images/logos/amazon-logo.svg" alt="amazon-logo">
+    </section>
+    <!--Recent Projects Section-->
+    <section id="recent-projects" class="padded-element">
+        <h3>Recent Projects</h3>
+        <div class="projects">
+            <!--Article 1-->
+            <article class="project-article">
+                <img src="" alt="service abstract image">
+                <div class=" project-test">
+                    <div class="text-project">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                    <a href="">Learn More</a>
+                </div>
+            </article>
+            <!--Article 2-->
+            <article class="project-article">
+                <img src="" alt="service abstract image">
+                <div class=" project-test">
+                    <div class="text-project">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                    <a href="">Learn More</a>
+                </div>
+            </article>
+            <!--Article 3-->
+            <article class="project-article">
+                <img src="" alt="service abstract image">
+                <div class="project-test">
+                    <div class="text-project">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                    <a href="">Learn More</a>
+                </div>
+            </article>
+        </div>
 
-    <main>
-        <h2>Contenido principal</h2>
-        <p>Este es el contenido principal de la página.</p>
-    </main>
-
-    <footer>
-        <p>Pie de página - Derechos reservados © 2024</p>
+    </section>
+    <!--Client coments Section-->
+    <section id="clients-coments">
+        <div class="emojis">
+            <img class="emoji-1" src="images/testimonial-section/memoji-1.png" alt="emoji-1">
+            <img class="emoji-2" src="images/testimonial-section/memoji-2.png" alt="emoji-2">
+            <img class="emoji-3" src="images/testimonial-section/memoji-3.png" alt="emoji-3">
+            <img class="emoji-4" src="images/testimonial-section/memoji-4.png" alt="emoji-4">
+        </div>
+        <div class="info">
+            <h3>Hear What Our Clients Have to Say</h3>
+            <p>“Circle helped us through every stage of our startup.<br>
+                We really enjoyed working with you.”</p>
+            <div class="client-info">
+                <img src="images/testimonial-section/profile.png" alt="profile">
+                <div>
+                    <span class="name">Kristin Watson</span>
+                    <span class="web">Booking.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Our Services Section-->
+    <section id="our-services" class="padded-element">
+        <h3>Our Services</h3>
+        <div class="projects">
+            <!--Article 1-->
+            <article class="service-article">
+                <div class="service-img">
+                    <img src="images/services-section/icons/1.svg" alt="pen-img">
+                </div>
+                <h4>User Interface Design</h4>
+                <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                <a href="">Learn More</a>
+            </article>
+            <!--Article 2-->
+            <article class="service-article">
+                <div class="service-img">
+                    <img src="images/services-section/icons/2.svg" alt="arrow-img">
+                </div>
+                <h4>User Experience Design</h4>
+                <p>Circle always focuses on delivering the best user experience to your customers.</p>
+                <a href="">Learn More</a>
+            </article>
+            <!--Article 3-->
+            <article class="service-article">
+                <div class="service-img">
+                    <img src="images/services-section/icons/3.svg" alt="doc-img">
+                </div>
+                <h4>Application Development</h4>
+                <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+                <a href="">Learn More</a>
+            </article>
+        </div>
+    </section>
+    <!--Questions Section-->
+    <section id="questions">
+        <h3>Do you have any questions?</h3>
+        <p>Let us help you!</p>
+        <form id="subscription">
+            <div class="input-wrapper">
+                <img src="images/newsletter/icon/mail.svg" alt="email-img">
+                <input type="email" id="email" placeholder="Enter your email"></input>
+            </div>
+            <button type="button" id="subscribe-button">Suscribe</button>
+        </form>
+    </section>
+    <section id="questions-submitted" class="padded-element hidden">
+        <div class="message-container">
+            <h3>Thank you for subscribing!</h3>
+            <p>We will get back to you shortly!</p>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="padded-element">
+        <div class="img-direction">
+            <img src="images/logos/circle.svg" alt="circle-logo">
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+        </div>
+        <div class="page-links">
+            <ul>
+                <li><a href="">Team</a></li>
+                <li><a href="/index.html#our-services">Services</a></li>
+                <li><a href="/index.html#header">About Us</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="/index.html#recent-projects">Projects</a></li>
+                <li><a href="">Privace Policy</a></li>
+            </ul>
+        </div>
     </footer>
-
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/questionsForm.js"></script>
 </body>
+
 </html>
