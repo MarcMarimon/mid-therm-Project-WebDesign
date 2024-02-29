@@ -54,7 +54,7 @@ function loadOtherProjects() {
                 projectImageElement.src = otherProjects[i].image;
                 projectNameElement.textContent = otherProjects[i].name;
                 projectDescriptionElement.textContent = otherProjects[i].description;
-                projectLearnMoreLink.href = `/project.html?id=${otherProjects[i].uuid}`
+                projectLearnMoreLink.href = `./project.html?id=${otherProjects[i].uuid}`
             }
         })
         .catch(error => console.error('Error charging other projects: ', error));
