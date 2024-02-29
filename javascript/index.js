@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             projectDescriptionElement.textContent = project.description;
             projectImageElement.src = project.image;
 
-            projectLearnMoreLink.href = `/project.html?id=${project.uuid}`;
+            projectLearnMoreLink.href = `./actualProject/project.html?id=${project.uuid}`;
         });
     })
     .catch(error => console.error('Error charging projects:', error));
