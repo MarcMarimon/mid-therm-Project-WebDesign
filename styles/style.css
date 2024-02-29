@@ -53,7 +53,7 @@ body {
 
 }
 .hidden{
-  display: none;
+  display: none !important;
 }
 
 /* Nav Bar*/
@@ -685,8 +685,8 @@ footer {
   font-size: 17px;
   border: none;
 }
-#form-message {
-  margin-top: 150px;
+#form-message, #questions-submitted{
+  padding-top: 150px;
  
 }
 .message-container {

@@ -17,8 +17,8 @@
             <a href="index.html" class="logo-link"><img src="images/logos/circle.svg"></a>
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="#recent-projects">Projects</a></li>
-                <li><a href="#our-services">Services</a></li>
+                <li><a href="/index.html#recent-projects">Projects</a></li>
+                <li><a href="/index.html#our-services">Services</a></li>
             </ul>
             <a class="contact-button" href="contactUs.html">Contact Us</a>
         </div>
@@ -31,7 +31,7 @@
                 apps.</P>
             <div class="button-container">
                 <a href="/contactUs.html" class="header-button">Get in Touch</a>
-                <a href="#recent-projects" class="header-no-button">See our work</a>
+                <a href="/index.html#recent-projects" class="header-no-button">See our work</a>
             </div>
         </div>
         <div class="header-images">
@@ -72,7 +72,7 @@
                 <div class=" project-test">
                     <div class="text-project">
                         <h4></h4>
-                        <p></p> 
+                        <p></p>
                     </div>
                     <a href="">Learn More</a>
                 </div>
@@ -89,7 +89,7 @@
                 </div>
             </article>
         </div>
-        
+
     </section>
     <!--Client coments Section-->
     <section id="clients-coments">
@@ -149,13 +149,19 @@
     <section id="questions">
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
-        <form>
+        <form id="subscription">
             <div class="input-wrapper">
                 <img src="images/newsletter/icon/mail.svg" alt="email-img">
-                <input type="email" placeholder="Enter your email"></input>
+                <input type="email" id="email" placeholder="Enter your email"></input>
             </div>
-            <button type="button">Suscribe</button>
+            <button type="button" id="subscribe-button">Suscribe</button>
         </form>
+    </section>
+    <section id="questions-submitted" class="padded-element hidden">
+        <div class="message-container">
+            <h3>Thank you for subscribing!</h3>
+            <p>We will get back to you shortly!</p>
+        </div>
     </section>
     <!--Footer-->
     <footer class="padded-element">
@@ -166,15 +172,16 @@
         <div class="page-links">
             <ul>
                 <li><a href="">Team</a></li>
-                <li><a href="#our-services">Services</a></li>
-                <li><a href="#header">About Us</a></li>
+                <li><a href="/index.html#our-services">Services</a></li>
+                <li><a href="/index.html#header">About Us</a></li>
                 <li><a href="">Press</a></li>
-                <li><a href="#recent-projects">Projects</a></li>
+                <li><a href="/index.html#recent-projects">Projects</a></li>
                 <li><a href="">Privace Policy</a></li>
             </ul>
         </div>
     </footer>
-<script src="javascript/index.js"></script>
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/questionsForm.js"></script>
 </body>
 
 </html>
