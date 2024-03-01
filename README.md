@@ -10,4 +10,4 @@ In this repository you can find:
    - The checking of the fields and the sending by Fetch of the entered data to the JSON Server.
    - The hamburger drop-down menu in the navigation bar for resolution on mobile screens.
 
-The general scripts are hosted in the /Javascript folder and the exclusive scripts of the Actual Project and Contact Us pages in their respective folders.
+   The general scripts are hosted in the /Javascript folder and the exclusive scripts of the Actual Project and Contact Us pages in their respective folders.
