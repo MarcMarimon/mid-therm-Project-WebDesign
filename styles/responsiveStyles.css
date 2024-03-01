@@ -285,29 +285,33 @@
 }
 
 @media screen and (max-width: 580px) {
-    .nav-bar{
-         width: 100%;
+    .nav-bar {
+        width: 100%;
     }
+
     .hamburger-menu {
         display: block;
         position: fixed;
         right: 25px;
-        top:10px;
+        top: 10px;
     }
+
     .nav-link-list {
         display: none;
         position: absolute;
         top: 60%;
-        right: 0;        
+        right: 0;
         background-color: white;
         border: 1px solid blue;
     }
+
     .nav-link-list li {
         margin-right: 15px;
         margin-left: 15px;
         padding: 10px 5px;
     }
-    .nav-link-list.show{
+
+    .nav-link-list.show {
         display: block;
     }
 
@@ -319,6 +323,7 @@
         display: block;
         text-align: center;
     }
+
     #actual-project {
         width: 400px;
     }
@@ -428,14 +433,17 @@
     .service-article p {
         font-size: 12px;
     }
+
     .contact-form {
         width: 300px;
     }
+
     #logo-bar img:last-of-type {
         display: none;
     }
-    #actual-project{
+
+    #actual-project {
         width: 350px;
     }
-   
+
 }

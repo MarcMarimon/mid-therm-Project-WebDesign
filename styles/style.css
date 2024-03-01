@@ -52,7 +52,8 @@ body {
   padding-right: 170px;
 
 }
-.hidden{
+
+.hidden {
   display: none !important;
 }
 
@@ -119,6 +120,7 @@ body {
 .nav-link-list li>a:hover {
   color: var(--color-primary-default);
 }
+
 .hamburger-menu {
   display: none;
   background: none;
@@ -243,8 +245,9 @@ body {
 /* Recent projects */
 
 #recent-projects {
-  padding-top:70px;
+  padding-top: 70px;
 }
+
 .projects {
   display: flex;
   gap: 40px;
@@ -461,7 +464,7 @@ body {
 /*Question Section*/
 
 #questions {
-  margin:0 100px;
+  margin: 0 100px;
   margin-top: 100px;
   background-color: var(--color-secondary-1);
   display: flex;
@@ -604,14 +607,17 @@ footer {
   height: 444px;
   margin-top: 50px;
 }
-.img-div{
-  height: 444px ;
+
+.img-div {
+  height: 444px;
   position: relative;
 }
-#actual-project img:first-of-type{
-  filter:blur(15px);
+
+#actual-project img:first-of-type {
+  filter: blur(15px);
 }
-#actual-project img:last-of-type{
+
+#actual-project img:last-of-type {
   position: absolute;
   top: 0;
   left: 0;
@@ -692,10 +698,13 @@ footer {
   font-size: 17px;
   border: none;
 }
-#form-message, #questions-submitted{
+
+#form-message,
+#questions-submitted {
   padding-top: 150px;
- 
+
 }
+
 .message-container {
   display: flex;
   flex-direction: column;
@@ -704,7 +713,8 @@ footer {
   background-color: var(--color-secondary-1);
   padding: 20px 10px;
 }
-.message-container p{
+
+.message-container p {
   margin-top: 50px;
   font-size: 24px;
 }
