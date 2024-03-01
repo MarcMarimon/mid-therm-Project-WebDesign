@@ -14,7 +14,7 @@ function loadActualProject(projectId) {
                 projectDescriptionElement.textContent = project.description;
                 completedOnElement.textContent = project.completed_on;
                 projectImageElement.forEach((element) => {
-                    element.src = project.image;    
+                    element.src = project.image;
                 })
                 projectContentElement.innerHTML = project.content;
             } else {
