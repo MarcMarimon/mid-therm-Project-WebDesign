@@ -100,24 +100,31 @@ body {
   margin: auto;
 }
 
-.nav-bar ul {
+.nav-link-list {
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-.nav-bar li {
+.nav-link-list li {
   margin-left: 40px;
   margin-right: 40px;
 }
 
-.nav-bar li a {
+.nav-link-list li a {
   text-decoration: none;
   color: var(--color-neutral-medium);
 }
 
-.nav-bar li>a:hover {
+.nav-link-list li>a:hover {
   color: var(--color-primary-default);
+}
+.hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 /* Header */
