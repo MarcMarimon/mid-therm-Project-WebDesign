@@ -5,8 +5,8 @@ In this repository you can find:
 1. The structure of the pages written in HTML code, the Index in the root and the Actual Project and Contact Us pages in their respective folders.
 2. The styles written in CSS in the Styles folder with two separate files for the general styles and the responsive styles.
 3. Finally you can find the functionalities of the website written in Javascript code:
-   -The dynamic and random filling of the Recent Projects and Other Projects cards.
-   -The dynamic filling of the HTML of the Actual Project according to the clicked Project.
-   -The checking of the fields and the sending by Fetch of the entered data to the JSON Server.
-   -The hamburger drop-down menu in the navigation bar for resolution on mobile screens.
+   - The dynamic and random filling of the Recent Projects and Other Projects cards.
+   - The dynamic filling of the HTML of the Actual Project according to the clicked Project.
+   - The checking of the fields and the sending by Fetch of the entered data to the JSON Server.
+   - The hamburger drop-down menu in the navigation bar for resolution on mobile screens.
 The general scripts are hosted in the /Javascript folder and the exclusive scripts of the Actual Project and Contact Us pages in their respective folders.
