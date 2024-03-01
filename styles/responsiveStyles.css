@@ -172,9 +172,11 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    .nav-bar{
+        width: 100%;
+    }
     .nav-bar>div {
-        justify-content: left;
+        justify-content: space-between;
     }
 
     /*Responsive Client Coments Section*/
@@ -262,19 +264,19 @@
 
     /*Responsive actual project*/
     #actual-project {
-        width: 500px;
+        width: 550px;
         margin: 40px auto;
         justify-content: center;
         margin-top: 80px;
     }
 
     .img-div {
-        width: 410px;
+        width: 490px;
         height: 210px;
     }
 
     #actual-project img {
-        width: 400px;
+        width: 500px;
         height: 300px;
     }
 
